@@ -1,0 +1,33 @@
+/* CSS/Breadcrum.css */
+
+.breadcrums {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin: 20px 0;
+    position: relative;
+    left: 35px;
+  }
+  
+  .breadcrums img {
+    width: 12px;
+    height: 12px;
+    margin: 0 8px;
+  }
+  
+  .breadcrums span {
+    margin: 0 8px;
+    color: #999;
+  }
+  
+  .breadcrums a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s;
+  }
+  
+  .breadcrums a:hover {
+    color: #007bff;
+  }
+  

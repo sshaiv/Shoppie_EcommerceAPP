@@ -1,0 +1,64 @@
+.new-collections {
+    padding: 20px;
+  }
+  
+  .new-collections h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #171717;
+    text-align: center;
+  }
+  
+  .new-collections hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin: 20px auto;
+  }
+  
+  .collections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .collections .item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .collections .item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .collections .item .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .collections .item .price {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  .collections .item .old-price {
+    text-decoration: line-through;
+    margin-right: 5px;
+  }
+  
+  .collections .item .new-price {
+    font-weight: bold;
+    color: #ff4141;
+  }
+  

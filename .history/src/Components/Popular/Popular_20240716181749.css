@@ -1,0 +1,42 @@
+.popular {
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .popular h1 {
+    font-size: 3rem; /* Adjusted font size */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px; /* Added margin for spacing */
+  }
+  
+  .popular hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin-bottom: 20px; /* Added margin for spacing */
+  }
+  
+  .popular-item {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .popular h1 {
+      font-size: 2rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .popular-item {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px; /* Adjusted gap for smaller screens */
+      margin-top: 30px; /* Adjusted margin for smaller screens */
+    }
+  }
+  

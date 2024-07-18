@@ -1,0 +1,44 @@
+/* DescriptionBox.css */
+
+.descriptionbox {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .descriptionbox-navigator {
+    display: flex;
+    justify-content: space-between; /* Ensure boxes are on opposite sides */
+    margin-bottom: 20px; /* Spacing between navigator and content */
+  }
+  
+  .descriptionbox-nav-box {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .descriptionbox-nav-box:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .descriptionbox-nav-box.fade {
+    opacity: 0.6; /* Example of a faded navigation item */
+  }
+  
+  .descriptionbox-description {
+    color: #666;
+  }
+  
+  .descriptionbox-reviews {
+    margin-top: 20px; /* Spacing between description and reviews */
+    color: #666;
+  }
+  
+  .descriptionbox-reviews p {
+    line-height: 1.6;
+  }
+  

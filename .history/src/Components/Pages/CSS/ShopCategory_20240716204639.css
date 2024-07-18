@@ -1,0 +1,52 @@
+/* CSS/ShopCategory.css */
+
+.shop-category {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .shop-category img {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 20px;
+   
+  }
+  
+  .shopcategory-indexSort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .shopcategory-indexSort p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .shopcategory-sort {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .shopcategory-sort img {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+  }
+  
+  .shopcategory-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .shopcategory-products p {
+    grid-column: span 4;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  

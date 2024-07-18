@@ -1,0 +1,34 @@
+.popular {
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid:10px;
+
+  }
+  
+  .popular h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+   
+  }
+  
+  .popular hr {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .popular-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .popular-item {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  

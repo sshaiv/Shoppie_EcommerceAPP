@@ -1,0 +1,27 @@
+/* ProductDisplay.css */
+
+.productdisplay {
+    display: flex;
+    gap: 20px;
+    margin: 0px 170px;
+  }
+  
+  .productdisplay-left {
+
+    display: flex;
+    gap: 17px;
+
+  }
+  
+  .productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .productdisplay-img-list img {
+    width: 568px;
+   height: 700px;
+  }
+  
+  

@@ -1,0 +1,29 @@
+/* RelatedProduct.css */
+
+.related-product {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .related-product h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .related-product hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .relatedproducts-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Adjust grid item styling in Item.css or inline styles in Item component */
+  

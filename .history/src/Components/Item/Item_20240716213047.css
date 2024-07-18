@@ -1,0 +1,50 @@
+/* CSS/Item.css */
+
+.item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    max-height: 60%;
+    display: block;
+  }
+  
+  .item-details {
+    margin-top: 10px;
+  }
+  
+  .item-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .item-prices {
+    margin-top: 10px;
+  }
+  
+  .item-price-new {
+    font-size: 18px;
+    color: #e60000;
+    font-weight: bold;
+  }
+  
+  .item-price-old {
+    text-decoration: line-through;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
